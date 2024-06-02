@@ -13,6 +13,7 @@ class Car extends Model
         'user_id',
         'license_plate',
         'make',
+        'brand',
         'model',
         'price',
         'mileage',

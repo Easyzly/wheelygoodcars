@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained();
             $table->string('license_plate');
-            $table->string('make');
-            $table->string('model');
+            $table->string('brand')->nullable();
+            $table->string('model')->nullable();
             $table->decimal('price');
-            $table->integer('mileage');
+            $table->integer('mileage')->nullable();
             $table->integer('seats')->nullable();
             $table->integer('doors')->nullable();
             $table->integer('production_year')->nullable();

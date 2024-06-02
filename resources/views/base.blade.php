@@ -13,7 +13,7 @@
         </div>
     </header>
     <nav>
-        <a href="">Location</a>
+        <a href="{{ route('car.form.create') }}">Create Form</a>
         <a href="">Location</a>
         <a href="">Location</a>
     </nav>
